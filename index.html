@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Edson Bernardes Ferreira Filho — Robotics Engineer</title>
+<meta name="description" content="Robotics engineer and researcher working on simulation, motion planning, and multi-robot autonomy.">
+<link rel="canonical" href="https://eferreirafilho.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Edson Bernardes Ferreira Filho — Robotics Engineer">
+<meta property="og:description" content="Robotics engineer and researcher working on simulation, motion planning, and multi-robot autonomy.">
+<meta property="og:url" content="https://eferreirafilho.github.io/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Edson Bernardes Ferreira Filho — Robotics Engineer">
+<meta name="twitter:description" content="Robotics engineer and researcher working on simulation, motion planning, and multi-robot autonomy.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+<meta name="theme-color" content="#1450c4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0e1a" media="(prefers-color-scheme: dark)">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Edson Bernardes Ferreira Filho",
+  "jobTitle": "Robotics Engineer & Researcher",
+  "url": "https://eferreirafilho.github.io/",
+  "email": "mailto:edsonbffilho@gmail.com",
+  "sameAs": [
+    "https://github.com/eferreirafilho",
+    "https://www.linkedin.com/in/edsonbffilho/",
+    "https://scholar.google.com/citations?user=fEN3HycAAAAJ"
+  ]
+}
+</script>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top"><span class="logo-mark">EF</span> Edson Bernardes Ferreira Filho</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#trajectory">Trajectory</a>
+      <a href="#more">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero wrap" id="top">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <h1>Edson Bernardes Ferreira Filho</h1>
+        <p class="role">Robotics Engineer &amp; Researcher</p>
+        <p class="bio">
+          I build and simulate robots — from pick-and-place arms to underwater and aerial swarms.
+          My background spans a PhD in swarm robotics control to industry work in Nvidia Isaac Sim,
+          ROS2, and motion &amp; task planning, for teams including Microsoft, n-fuse, FS Studio, and Royal Holloway University of London.
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/eferreirafilho" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/edsonbffilho/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="mailto:edsonbffilho@gmail.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=fEN3HycAAAAJ" target="_blank" rel="noopener">Publications ↗</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+          <!-- group A: circles -->
+          <circle class="swarm-ring ring-a" cx="95" cy="95" r="62"></circle>
+          <line class="swarm-link" x1="80" y1="80" x2="105" y2="70"></line>
+          <line class="swarm-link" x1="105" y1="70" x2="120" y2="100"></line>
+          <line class="swarm-link" x1="80" y1="80" x2="70" y2="115"></line>
+          <line class="swarm-link" x1="70" y1="115" x2="100" y2="125"></line>
+          <circle class="swarm-bot g1" cx="80" cy="80" r="5" style="animation-delay:-.2s"></circle>
+          <circle class="swarm-bot g1" cx="105" cy="70" r="4" style="animation-delay:-1.1s"></circle>
+          <circle class="swarm-bot g1" cx="120" cy="100" r="4.5" style="animation-delay:-.6s"></circle>
+          <circle class="swarm-bot g1" cx="70" cy="115" r="4" style="animation-delay:-1.6s"></circle>
+          <circle class="swarm-bot g1" cx="100" cy="125" r="4" style="animation-delay:-.9s"></circle>
+          <circle class="swarm-bot g1" cx="60" cy="90" r="3.5" style="animation-delay:-1.9s"></circle>
+
+          <!-- group B: mixed shapes -->
+          <circle class="swarm-ring ring-b" cx="228" cy="80" r="46"></circle>
+          <line class="swarm-link" x1="215" y1="60" x2="245" y2="55"></line>
+          <line class="swarm-link" x1="245" y1="55" x2="250" y2="85"></line>
+          <line class="swarm-link" x1="215" y1="60" x2="205" y2="95"></line>
+          <circle class="swarm-bot g2" cx="215" cy="60" r="4.5" style="animation-delay:-.4s"></circle>
+          <rect class="swarm-bot g2" x="241" y="51" width="8" height="8" transform="rotate(45 245 55)" style="animation-delay:-1.3s"></rect>
+          <circle class="swarm-bot g2" cx="250" cy="85" r="4" style="animation-delay:-.8s"></circle>
+          <polygon class="swarm-bot g2" points="205,89 199,100 211,100" style="animation-delay:-1.7s"></polygon>
+          <circle class="swarm-bot g2" cx="230" cy="100" r="3.5" style="animation-delay:-2.1s"></circle>
+
+          <!-- group C: mixed shapes -->
+          <circle class="swarm-ring ring-c" cx="165" cy="235" r="58"></circle>
+          <line class="swarm-link" x1="150" y1="215" x2="180" y2="210"></line>
+          <line class="swarm-link" x1="180" y1="210" x2="195" y2="240"></line>
+          <line class="swarm-link" x1="150" y1="215" x2="140" y2="250"></line>
+          <line class="swarm-link" x1="140" y1="250" x2="170" y2="260"></line>
+          <circle class="swarm-bot g3" cx="150" cy="215" r="4.5" style="animation-delay:-.3s"></circle>
+          <polygon class="swarm-bot g3" points="180,205 174,216 186,216" style="animation-delay:-1.4s"></polygon>
+          <circle class="swarm-bot g3" cx="195" cy="240" r="4" style="animation-delay:-.7s"></circle>
+          <rect class="swarm-bot g3" x="136" y="246" width="7" height="7" transform="rotate(45 140 250)" style="animation-delay:-1.8s"></rect>
+          <circle class="swarm-bot g3" cx="170" cy="260" r="4" style="animation-delay:-1.0s"></circle>
+          <circle class="swarm-bot g3" cx="188" cy="215" r="3.5" style="animation-delay:-2.2s"></circle>
+
+          <!-- strays converging -->
+          <line class="swarm-trail" x1="270" y1="180" x2="230" y2="220"></line>
+          <g class="swarm-stray stray-1"><circle cx="270" cy="180" r="3.5"></circle></g>
+          <line class="swarm-trail" x1="30" y1="200" x2="95" y2="230"></line>
+          <g class="swarm-stray stray-2"><circle cx="30" cy="200" r="3.5"></circle></g>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" id="work">
+    <div class="section-head reveal">
+      <span class="index">01</span>
+      <h2>Featured work</h2>
+    </div>
+
+    <div class="feature-grid">
+
+      <article class="feature reveal">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/kLMvVMQh2kI" title="Isaac Sim Pizza Scooping" loading="lazy" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="feature-text">
+          <h3>Isaac Sim Pizza Scooping</h3>
+          <p class="meta">n-fuse GmbH, Germany — 2023–2024</p>
+          <p>A robotic manipulator trained to scoop, drop, and handle pizza — both baked and raw.
+          The raw dough was modeled as a deformable object and the scooping policy trained with
+          reinforcement learning (Isaac Sim, PyTorch, Omni Isaac Gym Envs).</p>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/oD5WU7dRKI8" title="DEMETER — Multi-Agent AUVs" loading="lazy" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="feature-text">
+          <h3>DEMETER — 4 AUVs, 60 Offshore Wind Turbines</h3>
+          <p class="meta">Royal Holloway, University of London — 2022–2023</p>
+          <p>An Innovate UK consortium project (with Autonomous Devices, Signaloid, D-RisQ, CRP Subsea,
+          and the Universities of Manchester and Strathclyde) moving subsea inspection from manual,
+          low-frequency retrieval to automated, on-demand data collection. I worked on multi-agent
+          task and mission planning, simulated in ROS, Gazebo, and ROSPlan.</p>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/qJQXDGICeGg" title="Isaac Sim MoveIt Pick and Place (UR3e)" loading="lazy" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="feature-text">
+          <h3>Isaac Sim · MoveIt Pick &amp; Place (UR3e)</h3>
+          <p class="meta">Microsoft — 2024–2025</p>
+          <p>MoveIt-based pick-and-place motion planning for a UR3e arm inside Isaac Sim.
+          Broader project details are under NDA.</p>
+        </div>
+      </article>
+
+      <article class="feature reveal">
+        <div class="video-frame">
+          <iframe src="https://www.youtube-nocookie.com/embed/Bd-1XzaPeXY" title="ICRA 2020 Presentation — Segregation in Curves" loading="lazy" frameborder="0" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="feature-text">
+          <h3>ICRA 2020 — Segregation in Curves</h3>
+          <p class="meta">PhD research, UFMG — 2020</p>
+          <p>A decentralized control strategy for segregating heterogeneous robot swarms along
+          open curves, using formation control and a segregation heuristic.
+          <a href="https://github.com/eferreirafilho/swarm_segregation_icra2020" target="_blank" rel="noopener">Code ↗</a></p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="wrap" id="trajectory">
+    <div class="section-head reveal">
+      <span class="index">02</span>
+      <h2>Trajectory</h2>
+    </div>
+    <ul class="timeline">
+
+      <li class="reveal">
+        <span class="years">2025 — Now</span>
+        <span class="node-col"><span class="dot current"></span></span>
+        <div>
+          <h4>Simulation Engineer — Xseed <span class="tag">NDA</span></h4>
+          <p>Allocated to a stealth US robotics startup. Remote from Brazil.</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2024 — 2025</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>Senior Robotics Software Engineer — Microsoft</h4>
+          <p>Isaac Sim, ROS2, motion planning for robotic manipulators. Part-time, remote. Broader project under NDA — see the pick-and-place demo above.</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2024 — 2025</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>Software Engineer — FS Studio</h4>
+          <p>Built a cross-engine photorealistic drone simulation platform (Isaac Sim + Gazebo)
+          with a custom VTOL model in JSBSim, ROS2 and PX4 SITL, containerized with Docker.
+          Part-time, remote. <a href="https://fsstudio.com/photorealistic-drone-simulation-through-omniverse-and-gazebo-case-study" target="_blank" rel="noopener">Case study ↗</a></p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2023 — 2024</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>Robotics Software Engineer — n-fuse GmbH, Germany</h4>
+          <p>Isaac Sim, ROS2, reinforcement learning for robotic manipulators — see the pizza-scooping project above. Remote from Brazil. Broader project under NDA.</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2022 — 2023</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>Research Associate, AI &amp; Autonomous Systems — Royal Holloway, University of London</h4>
+          <p>DEMETER project (Innovate UK) — task, motion, and mission planning for a multi-agent underwater robotic system.</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2021 — 2022</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>Substitute Professor, Control &amp; Automation Engineering — UFOP</h4>
+          <p>Universidade Federal de Ouro Preto, Brazil.</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2020 — 2021</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>Post-doctoral Researcher — UFMG</h4>
+          <p>INCT grant (National Institute of Science and Technology for Autonomous Systems Cooperatives Applied to Safety and the Environment). Control of robot swarms.</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2013 — 2020</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>MSc &amp; PhD, Electrical Engineering — UFMG</h4>
+          <p>Thesis: <em>Decentralized Segregation in Swarms of Robots</em>. Published at ICRA 2020, CDC 2019, and in Robotics and Autonomous Systems (2019).</p>
+        </div>
+      </li>
+
+      <li class="reveal">
+        <span class="years">2007 — 2013</span>
+        <span class="node-col"><span class="dot"></span></span>
+        <div>
+          <h4>BSc, Control &amp; Automation Engineering — UFOP</h4>
+          <p>2nd place, Latin American Robotics Competition, 2012.</p>
+        </div>
+      </li>
+
+    </ul>
+  </section>
+
+  <section class="wrap" id="more">
+    <div class="section-head reveal">
+      <span class="index">03</span>
+      <h2>More projects</h2>
+    </div>
+    <div class="grid">
+
+      <div class="card reveal">
+        <a class="card-media" href="https://eferreirafilho.github.io/caca-estatuas-sp/" target="_blank" rel="noopener">
+          <img loading="lazy" src="images/caca-estatuas-sp.jpg" alt="Interactive map of the optimized São Paulo statue-hunt driving route">
+        </a>
+        <div class="card-text">
+          <h4><a href="https://eferreirafilho.github.io/caca-estatuas-sp/" target="_blank" rel="noopener">São Paulo Statue Hunt — Route Optimizer</a></h4>
+          <p>TSP-optimized driving route (nearest-neighbor + 2-opt) across all 91 stops in São Paulo's official Turma da Mônica statue hunt, with an interactive map, GPX export, and visit tracking. <a href="https://github.com/eferreirafilho/caca-estatuas-sp" target="_blank" rel="noopener">Code ↗</a></p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/xqo80AxXEqs" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/xqo80AxXEqs/hqdefault.jpg" alt="Isaac Sim deformable pizza and dough simulation">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/xqo80AxXEqs" target="_blank" rel="noopener">Isaac Sim Deformable Pizza &amp; Dough Tests</a></h4>
+          <p>Early deformable-object experiments, Nvidia Omniverse</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://fsstudio.com/photorealistic-drone-simulation-through-omniverse-and-gazebo-case-study" target="_blank" rel="noopener">
+          <img loading="lazy" src="images/fsstudio-dronesim.jpg" alt="CFD airflow visualization around a simulated drone">
+        </a>
+        <div class="card-text">
+          <h4><a href="https://fsstudio.com/photorealistic-drone-simulation-through-omniverse-and-gazebo-case-study" target="_blank" rel="noopener">Photorealistic Drone Simulation — FS Studio</a></h4>
+          <p>Cross-engine simulation platform (Isaac Sim + Gazebo) with a custom VTOL model in JSBSim, ROS2, and PX4 SITL, containerized with Docker. <a href="https://fsstudio.com/photorealistic-drone-simulation-through-omniverse-and-gazebo-case-study" target="_blank" rel="noopener">Case study ↗</a></p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/FILIcJzhCA4" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/FILIcJzhCA4/hqdefault.jpg" alt="Simulation of the Safe Radial Segregation Algorithm for robot swarms">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/FILIcJzhCA4" target="_blank" rel="noopener">Safe Radial Segregation Algorithm for Swarms</a></h4>
+          <p>Postdoctoral research, UFMG</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/mFxI3YQrhSk" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/mFxI3YQrhSk/hqdefault.jpg" alt="Simulation of heterogeneous robot swarms segregating into groups">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/mFxI3YQrhSk" target="_blank" rel="noopener">IROS 2015 — Segregating Heterogeneous Swarms</a></h4>
+          <p>PhD research, UFMG — a controller that provably converges to segregated clusters using group abstractions and an artificial potential function.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/qwxTIXPNZy4" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/qwxTIXPNZy4/hqdefault.jpg" alt="Multi-robot simulation for the CBS MAPF path planner">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/qwxTIXPNZy4" target="_blank" rel="noopener">Multi-Agent Path Finding (CBS MAPF)</a></h4>
+          <p>Centralized conflict-based search path planner for differential-drive robots — reads start/goal positions and outputs collision-free schedules via a feedback-linearization controller. <a href="https://github.com/eferreirafilho/mapf" target="_blank" rel="noopener">Code ↗</a></p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/5zz554kwlhc" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/5zz554kwlhc/hqdefault.jpg" alt="3D point-cloud map and UAV path planning simulation">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/5zz554kwlhc" target="_blank" rel="noopener">UAV ROS/Gazebo 3D Path Planning</a></h4>
+          <p>3D map built from point-cloud data (Hector Quadrotor), a PI controller written from scratch, and a Probabilistic Roadmap queried for each new path. <a href="https://github.com/eferreirafilho/gazebo_3D_pathplanning" target="_blank" rel="noopener">Code ↗</a></p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/h5XjMiL6z1w" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/h5XjMiL6z1w/hqdefault.jpg" alt="3D-printed HOTAS flight controller">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/h5XjMiL6z1w" target="_blank" rel="noopener">3D Printed HOTAS Xbox Controller</a></h4>
+          <p>Modified for Flight Simulator 2021 · design credit <a href="https://www.thingiverse.com/thing:4605273" target="_blank" rel="noopener">Thingiverse ↗</a></p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/n9C_z808i98" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/n9C_z808i98/hqdefault.jpg" alt="Healthier PacMan game screenshot">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/n9C_z808i98" target="_blank" rel="noopener">Healthier PacMan</a></h4>
+          <p>A small GameMaker game about staying fit</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/-ZS7VJuk-Xw" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/-ZS7VJuk-Xw/hqdefault.jpg" alt="MATLAB path planning algorithm visualization">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/-ZS7VJuk-Xw" target="_blank" rel="noopener">Path Planning Algorithms (MATLAB)</a></h4>
+          <p>PhD coursework implementing classic and then-state-of-the-art path planning algorithms. <a href="https://github.com/eferreirafilho/Path-Planning-Algorithms" target="_blank" rel="noopener">Code ↗</a></p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="images/web-scraping.png" target="_blank" rel="noopener">
+          <img loading="lazy" src="images/web-scraping.png" alt="Python web scraper code and price-alert notifications">
+        </a>
+        <div class="card-text">
+          <h4>Web Scraping (Python)</h4>
+          <p>A BeautifulSoup scraper that watched local marketplace listings for deals on gadgets, and a second version that monitored university job postings — both scheduled to run daily and email the results.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="images/lazygate.png" target="_blank" rel="noopener">
+          <img loading="lazy" src="images/lazygate.png" alt="LazyGate circuit diagram and garage door opener app">
+        </a>
+        <div class="card-text">
+          <h4>LazyGate — Garage Door Control</h4>
+          <p>An MIT App Inventor app paired with an Arduino + HC-05 Bluetooth module wired into a garage remote — opening the app short-circuits the remote's button to open the gate.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/2zBxK12dLUQ" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/2zBxK12dLUQ/hqdefault.jpg" alt="Home automation breadboard circuit with a Pebble smartwatch">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/2zBxK12dLUQ" target="_blank" rel="noopener">Home Automation Tests</a></h4>
+          <p>Early smart-home tinkering: Pebble smartwatch, Android MacroDroid, Arduino, and an HC-05 Bluetooth module.</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/e_MWCThEzN8" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/e_MWCThEzN8/hqdefault.jpg" alt="Slash Adventure Android game screenshot">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/e_MWCThEzN8" target="_blank" rel="noopener">Slash Adventure (Android Game)</a></h4>
+          <p>A GameMaker Android game — dodge the flames, then collect potions to flip into "Slash Mode."</p>
+        </div>
+      </div>
+
+      <div class="card reveal">
+        <a class="card-media" href="https://youtu.be/XIEwwKHn3Zw" target="_blank" rel="noopener">
+          <img loading="lazy" src="https://img.youtube.com/vi/XIEwwKHn3Zw/hqdefault.jpg" alt="Image detection and analysis MATLAB assignment">
+          <span class="play">▶</span>
+        </a>
+        <div class="card-text">
+          <h4><a href="https://youtu.be/XIEwwKHn3Zw" target="_blank" rel="noopener">Image Detection &amp; Analysis (MATLAB/OpenCV)</a></h4>
+          <p>Master's coursework assignment on image detection and analysis, built with MATLAB and OpenCV (C++).</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap" id="contact">
+  <p><a href="mailto:edsonbffilho@gmail.com">edsonbffilho@gmail.com</a> · <a href="https://github.com/eferreirafilho" target="_blank" rel="noopener">GitHub</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
