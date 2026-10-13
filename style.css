@@ -61,6 +61,7 @@ body::before {
 .feature-grid > .reveal:nth-child(2) { transition-delay: .08s; }
 .feature-grid > .reveal:nth-child(3) { transition-delay: .16s; }
 .feature-grid > .reveal:nth-child(4) { transition-delay: .24s; }
+.feature-grid > .reveal:nth-child(5) { transition-delay: .32s; }
 .grid > .reveal:nth-child(2) { transition-delay: .06s; }
 .grid > .reveal:nth-child(3) { transition-delay: .12s; }
 .grid > .reveal:nth-child(4) { transition-delay: .18s; }
@@ -386,6 +387,18 @@ main section + section {
   font-size: .92rem;
 }
 .feature-text p:not(.meta) a { color: var(--accent); font-weight: 600; }
+.feature-text p:not(.meta) a + a { margin-left: .6em; }
+
+/* wide feature spans the full row, video beside text */
+.feature-wide {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 24px;
+  align-items: center;
+}
+.feature-wide .video-frame { margin-bottom: 0; }
+.feature-wide .feature-text h3 { font-size: 1.25rem; }
 
 /* cards grid */
 .grid {
@@ -562,6 +575,7 @@ footer {
 
 @media (max-width: 720px) {
   .feature-grid { grid-template-columns: 1fr; }
+  .feature-wide { grid-template-columns: 1fr; gap: 16px; }
 }
 
 @media (max-width: 600px) {
