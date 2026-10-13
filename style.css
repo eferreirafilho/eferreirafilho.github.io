@@ -469,6 +469,34 @@ main section + section {
 }
 .card-text p a { color: var(--accent); text-decoration: underline; font-weight: 600; }
 
+/* sub-groups inside a section */
+.subhead {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 16px;
+}
+.grid + .subhead { margin-top: 44px; }
+
+/* compact grid: secondary projects, visually lighter */
+.grid-compact {
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 16px;
+}
+.grid-compact .card-media img { aspect-ratio: 16/9; }
+.grid-compact .card-media .play {
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: .7rem;
+}
+.grid-compact .card-text { padding: 10px 12px 12px; }
+.grid-compact .card-text h4 { font-size: .86rem; }
+.grid-compact .card-text p { font-size: .78rem; }
+
 .more-link {
   margin-top: 26px;
   color: var(--muted);
@@ -584,4 +612,5 @@ footer {
   .timeline li { grid-template-columns: 20px 1fr; }
   .timeline .years { grid-column: 1 / -1; text-align: left; margin-bottom: 4px; }
   .timeline .node-col::before { bottom: -22px; }
+  .grid-compact { grid-template-columns: 1fr 1fr; gap: 12px; }
 }
