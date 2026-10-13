@@ -13,7 +13,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('Intersec
   document.querySelectorAll('.reveal').forEach(el => io.observe(el));
 
   // Safety net: if nothing revealed after 1.5s, something's wrong with
-  // IntersectionObserver in this environment — show everything rather
+  // IntersectionObserver in this environment, so show everything rather
   // than leave content permanently invisible.
   setTimeout(() => {
     if (!document.querySelector('.reveal.is-visible')) {

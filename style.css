@@ -49,7 +49,7 @@ body::before {
 }
 
 /* scroll-reveal (progressive enhancement: only animates once .js is present).
-   Deliberately never toggles opacity — content must stay visible even if a
+   Deliberately never toggles opacity: content must stay visible even if a
    transition never resolves; worst case it just sits at a small offset. */
 .js .reveal {
   transform: translateY(16px);
